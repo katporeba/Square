@@ -49,7 +49,7 @@ public class Application {
     }
 
 
-    // comment
+    // comment correct
 
     public void undo(){
         Command command = commandHistory.pop();
