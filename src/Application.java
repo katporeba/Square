@@ -48,6 +48,9 @@ public class Application {
             }
     }
 
+
+    // comment
+
     public void undo(){
         Command command = commandHistory.pop();
         if(command!=null) {
