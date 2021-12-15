@@ -56,6 +56,8 @@ public class Application {
         }
     }
 
+
+
     public void redo(){
         Command command = commandHistoryRedo.pop();
         if(command!=null) {
